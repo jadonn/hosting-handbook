@@ -2,25 +2,23 @@
 
 ### What does the Hosting Team do?
 
-The Hosting Team is working on [several projects](https://make.wordpress.org/hosting/team-projects/).
+The Hosting Team works on several [hosting team projects](https://make.wordpress.org/hosting/team-projects/).
 
-There is a set of hosting best practices in the [Hosting Handbook](https://make.wordpress.org/hosting/handbook/), including [Performance](https://make.wordpress.org/hosting/handbook/handbook/performance/), [Reliability](https://make.wordpress.org/hosting/handbook/handbook/reliability/), [Security](https://make.wordpress.org/hosting/handbook/handbook/security/) and [Server Environment](https://make.wordpress.org/hosting/handbook/handbook/server-environment/) recommendations.
+Hosting best practices can be found in the [Hosting Handbook](https://make.wordpress.org/hosting/handbook/), including [Performance](https://make.wordpress.org/hosting/handbook/handbook/performance/), [Reliability](https://make.wordpress.org/hosting/handbook/handbook/reliability/), [Security](https://make.wordpress.org/hosting/handbook/handbook/security/) and [Server Environment](https://make.wordpress.org/hosting/handbook/handbook/server-environment/) recommendations.
 
-The team runs and maintains a set of [automated hosting tests](https://make.wordpress.org/hosting/test-results/) that run across many hosting companies.
-
-If you are a developer (or if you are a user and want to improve the tool), you can propose improvements and fix issues in both the [PHPUnit test runner (issues)](https://github.com/WordPress/phpunit-test-runner/issues) and the [PHPUnit test reporter (issues)](https://github.com/WordPress/phpunit-test-reporter/issues).
+The Hosting Team developed and and maintained a set of [automated hosting tests](https://make.wordpress.org/hosting/test-results/) that hosting companies can implement in systems. If you are a developer (or if you are a user and want to improve the tool), you can propose improvements and fix issues in both the [PHPUnit test runner (issues)](https://github.com/WordPress/phpunit-test-runner/issues) and the [PHPUnit test reporter (issues)](https://github.com/WordPress/phpunit-test-reporter/issues).
 
 #### Improving Hosting Handbook
 
 The Handbook contains information about the Hosting Team, along with hosting recommendations for running WordPress.
 
-The recommendations were put together by the team and used as a basis for Site Health recommendations in WordPress. They're meant both as a reference for folks learning to host WordPress, and a way to help WordPress and Hosts improve together.
+The recommendations were put together by the team and used as a basis for Site Health recommendations in WordPress. They're meant both as a reference for folks learning to host WordPress and a way to help WordPress and Hosts improve together.
 
 ##### How to contribute to the Hosting Handbook
 
 The handbook is in the process of being audited and improved.
 
-You can see the progress and contribute [through Github](https://github.com/javiercasares/WordPress-Hosting-Handbook).
+Folks can see the progress and contribute [through Github](https://github.com/javiercasares/WordPress-Hosting-Handbook).
 
 The first thing you'll have to do is [visit the repository page](https://github.com/javiercasares/WordPress-Hosting-Handbook) where all the information is. If you know how Git works, it's best to [visit the Issues list](https://github.com/javiercasares/WordPress-Hosting-Handbook/issues), check if your proposal is already contemplated or pending, and if it isn't, [create a New issue](https://github.com/javiercasares/WordPress-Hosting-Handbook/issues/new).
 
@@ -89,7 +87,11 @@ There are some working groups at the Hosting Team. You can participate with docu
 
 ##### Automated Hosting Test
 
-// We should add something here about how to start contributing with hosting tests (or linking to the section about)
+The Automated Hosting Test group helps hosts run WordPress's PHPUnit tests on their infrastructure to identify any bugs or issues with WordPress or their server configuration. The Hosting Team has a [page with the test results](https://make.wordpress.org/hosting/test-results/) on the team Make website.
+
+The Hosting Team produces a set of tools for running PHPUnit tests and automatically reporting the results to the Test Results reporter system.
+
+If you would like to get started with running the PHPUnit tests on your own hosting infrastructure, the Hosting Team has a [detailed Getting Started page](https://make.wordpress.org/hosting/test-results-getting-started/) with more instructions! If you have any questions or run into any problems setting up the distributed PHPUnit tests, please reach out to Hosting Team in WordPress Slack in the [#hosting-community](https://wordpress.slack.com/archives/hosting-community/) channel or file an [issue on the GitHub repo for the PHPUnit Test Runner](https://github.com/WordPress/phpunit-test-runner/issues).
 
 ##### PHPUnit Tests
 
